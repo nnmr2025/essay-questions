@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Double questions</title>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      id="randomQuestion"
+      style="
+        font-size: 25px;
+        color: #000;
+        background-color: #fff;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 1200px;
+      "
+    >
+      <h3 style="text-align: center"> Question:</h3>
+      <div id="here" style="text-align: left"></div>
+     
+    </div>
+    <button
+    id="copyButton"
+    style="
+      all: unset;
+      cursor: pointer;
+      background-color: #000;
+      padding: 20px;
+    "
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="30"
+      fill="white"
+      class="bi bi-copy"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"
+      />
+    </svg>
+  </button>
+    <ol>
+      <li>
+        <p>Fewer and fewer people today write by hand using a pen or pencil.</p>
+        <p>What are the&nbsp;reasons for this?</p>
+        <p>Is this a positive or a negative development?</p>
+      </li>
+      <li>
+        <p>
+          In recent years, there has been a rise in the use of
+          performance-enhancing drugs in sports.
+        </p>
+        <p>What are the consequences of doping for athletes?</p>
+        <p>What measures should be taken to combat this issue?</p>
+      </li>
+      <li>
+        <p>
+          The rise of social media platforms has made it easier for people to
+          vent their frustrations and complaints publicly.
+        </p>
+        <p>What is the consequence of this trend?</p>
+        <p>Is there any benefit to expressing complaints on social media?</p>
+      </li>
+      <li>
+        <p>In many countries, the number of animals and plants is declining.</p>
+        <p>Why do you think this is happening?</p>
+        <p>How can this issue be solved?</p>
+      </li>
+      <li>
+        <p>
+          In many societies, there is a growing emphasis on sustainable living
+          and reducing environmental impact.
+        </p>
+        <p>What are the challenges of adopting a sustainable lifestyle?</p>
+        <p>
+          What practical actions can individuals take to contribute to
+          sustainability?
+        </p>
+      </li>
+      <li>
+        <p>
+          Some countries have introduced laws to limit the working hours that an
+          employer can ask from an employee.
+        </p>
+        <p>Why are these law introduced?</p>
+        <p>Is this a positive or negative trend?</p>
+      </li>
+      <li>
+        <p>
+          Nowadays, not enough students choose science subjects at university in
+          many countries.
+        </p>
+        <p>Why is this the case?</p>
+        <p>What effects does this have on society?</p>
+      </li>
+      <li>
+        <p>
+          In many countries, people increasingly talk about money such as how
+          much they earn or how much they pay for things in their daily
+          conversations.
+        </p>
+        <p>Why?</p>
+        <p>Is this a positive or negative trend?</p>
+      </li>
+      <li>
+        <p>
+          Car ownership has increased so rapidly over the past thirty years that
+          in many cities around the world there are constant traffic jams.
+        </p>
+        <p>How true do you think this statement is?</p>
+        <p>
+          What measures can governments take to discourage people from owning
+          cars?
+        </p>
+      </li>
+      <li>
+        <p>Some children spend hours every day on their smartphones.&nbsp;</p>
+        <p>Why is this the case?</p>
+        <p>Do you think this is a positive or a negative development?</p>
+      </li>
+      <li>
+        <p>
+          Some young people like to copy the behaviour and clothes of famous
+          people today.
+        </p>
+        <p>Why might this be the case?&nbsp;</p>
+        <p>What problems can it cause?</p>
+      </li>
+      <li>
+        <p>
+          Advanced technology has brought many beneficial changes to the world.
+          However, some old people today struggle with the use of technologies
+          such as mobile phones and the Internet.
+        </p>
+        <p>How can the elderly benefit from using advanced technologies?</p>
+        <div
+          style="width: 100%; height: auto; clear: both; text-align: center"
+          class="google-auto-placed ap_container"
+        >
+          <ins
+            style="
+              display: block;
+              margin: auto;
+              background-color: transparent;
+              height: 0px;
+            "
+            data-ad-format="auto"
+            class="adsbygoogle adsbygoogle-noablate"
+            data-ad-client="ca-pub-4051516572982709"
+            data-adsbygoogle-status="done"
+            data-ad-status="unfilled"
+          >
+            <div
+              id="aswift_2_host"
+              style="
+                border: medium;
+                height: 0px;
+                width: 769px;
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+                visibility: visible;
+                background-color: transparent;
+                display: inline-block;
+                overflow: hidden;
+                opacity: 0;
+              "
+            ></div>
+          </ins>
+        </div>
+        <p>
+          How can the elderly be encouraged to use consumer electronics more
+          often?
+        </p>
+      </li>
+      <li>
+        <p>There is more and more outrage and anger common in society today.</p>
+        <p>Why is this the case?</p>
+        <p>Is this a positive or a negative development?</p>
+      </li>
+      <li>
+        <p>
+          These days consumers are faced with an increasing amount of
+          advertising from various companies.
+        </p>
+        <p>
+          To what extent do you think consumers are influenced by advertising?
+        </p>
+        <p>What measures should be taken to protect them?</p>
+      </li>
+      <li>
+        <p>
+          In many countries, people now wear western clothes such as suits and
+          jeans rather than traditional clothing.
+        </p>
+        <p>Why is this the case?</p>
+        <p>Is this a positive or negative development?</p>
+      </li>
+      <li>
+        <p>Some children spend hours every day on smartphones.</p>
+        <p>Why is this the case?</p>
+        <p>Do you think this is a positive or negative development?</p>
+      </li>
+      <li>
+        <p>
+          More and more young people from wealthy countries are spending time in
+          communities in poorer countries doing unpaid work such as teaching or
+          building houses.
+        </p>
+        <p>Why is this the case?</p>
+        <p>
+          Who benefits more from this, the communities or these young people?
+        </p>
+      </li>
+      <li>
+        <p>Weddings are getting bigger and more expensive.</p>
+        <p>What is the reason for this?</p>
+        <p>Is it a positive or negative development?</p>
+      </li>
+      <li>
+        <p>
+          Some people say that now is the best time in history to be living.
+        </p>
+        <p>What is your opinion about this?</p>
+        <p>What other time in history would be interesting to live in?</p>
+      </li>
+      <li>
+        <p>
+          Today, TV channels broadcast men’s sports shows more than women’s
+          sport shows.
+        </p>
+        <p>Why is this the case?</p>
+        <p>Should TV channels give equal showtime for each?</p>
+      </li>
+      <li>
+        <p>
+          Many young people today know more about international pop or movie
+          stars than about famous people in the history of their own country.
+        </p>
+        <p>Why is this the case?</p>
+        <p>
+          What can be done to increase young people’s interest in famous people
+          in the history of their country?
+        </p>
+      </li>
+      <li>
+        <p>
+          There are different methods businesses use to increase their sales.
+        </p>
+        <p>What are the different ways companies use to increase sales?</p>
+        <p>Which one is the most effective?</p>
+      </li>
+      <li>
+        <p>
+          Many adults nowadays prefer spending their free time playing computer
+          games.
+        </p>
+        <p>Why do they do this?</p>
+        <p>Is this a positive or negative development?</p>
+      </li>
+      <li>
+        <p>
+          Consumers are faced with increasing numbers of advertisements from
+          competing companies.
+        </p>
+        <p>
+          To what extent do you think are consumers are influenced by
+          advertisements?
+        </p>
+        <p>What measures can be taken to protect them?</p>
+      </li>
+      <li>
+        <p>
+          In many countries, people now wear western-style dress such as suits
+          and jeans rather than traditional clothing.
+        </p>
+        <p>Why is this the case?</p>
+        <p>Is this a positive or negative development?</p>
+      </li>
+      <li>
+        <p>
+          Some believe children should be taught to give speeches and
+          presentations in school.
+        </p>
+        <p>Why is this the case?</p>
+        <p>Should this be taught in schools?</p>
+      </li>
+      <li>
+        <p>
+          In many countries, increasing numbers of people are becoming
+          interested in learning about the history of the house or building
+          where they live.
+        </p>
+        <p>What are the reasons behind this?</p>
+        <p>How can individuals research this?</p>
+      </li>
+      <li>
+        <p>
+          In their advertising, businesses nowadays usually emphasise that their
+          products are new in some way.
+        </p>
+        <p>
+          Why is this the case? Do you think it is a positive or negative
+          development?
+        </p>
+      </li>
+      <li>
+        <p>
+          Some people today prefer to get advice for medical problems and do not
+          want to visit a doctor.
+        </p>
+        <p>Why is this the case?</p>
+        <p>Is this a positive or a negative development?</p>
+      </li>
+      <li>
+        <p>
+          In recent times, economic growth has helped many become richer, both
+          in developed and developing countries. However, those in developed
+          countries are not as happy as they were in the past.
+        </p>
+        <p>Why is this the case?</p>
+        <p>What can be learned from this?</p>
+      </li>
+      <li>
+        <p>
+          Some people spend a lot of money celebrating personal family events,
+          such as weddings and birthdays.
+        </p>
+        <p>How important is it to celebrate such events?</p>
+        <p>Do you think people spend too much money on these events?</p>
+      </li>
+      <li>
+        <p>Some people work harder than other.</p>
+        <p>Why is this the case?</p>
+        <p>Is this a positive or negative habit?</p>
+      </li>
+      <li>
+        <p>
+          Some countries have introduced laws to limit working hours for
+          employees.
+        </p>
+        <p>Why are these laws introduced?</p>
+        <p>Do you think they are a positive or negative development?</p>
+      </li>
+      <li>
+        <p>Competition for university study is becoming increasingly strong.</p>
+        <p>Why are universities becoming more competitive?</p>
+        <p>Is this a positive or negative development?</p>
+      </li>
+      <li>
+        <p>Many people are working longer hours.</p>
+        <p>Why is this happening?</p>
+        <p>What problems can this cause to people?</p>
+      </li>
+      <li>
+        <p>
+          Around the world more and more people today are living in urban areas.
+        </p>
+        <p>Why is this the case?</p>
+        <p>What problems does this cause?</p>
+      </li>
+      <li>
+        <p>
+          In some countries, there are fewer young people who listen to or play
+          classical music these days.
+        </p>
+        <p>Why is this the case?</p>
+        <p>
+          Should young people be encouraged to play or perform classical music?
+        </p>
+      </li>
+      <li>
+        <p>Nowadays people live longer after they retire.</p>
+        <p>How does this affect individuals and society?</p>
+        <p>What can be done about this?</p>
+      </li>
+      <li>
+        <p>
+          Many educational institutions give greater importance to subjects
+          related to science and ignore subjects such as drama and literature.
+        </p>
+        <p>Why is this the case?</p>
+        <p>Is this a positive or negative development?</p>
+      </li>
+      <li>
+        <p>
+          Shopping is now one of the most popular forms of leisure activities in
+          many countries for young adults.
+        </p>
+        <p>Why is this the case?</p>
+        <p>Do you think this is a positive or a negative development?</p>
+      </li>
+      <li>
+        <p>
+          These days more fathers stay at home and take care of their children
+          while mothers go out to work.
+        </p>
+        <p>What could be the reasons for this?</p>
+        <p>Is it a positive or negative development?</p>
+      </li>
+      <li>
+        <p>
+          Many researchers believe that we can now study the behaviour of
+          children to see if they will grow up to be criminals, while others
+          disagree.
+        </p>
+        <p>To what extent do you think crime is determined by genetics?</p>
+        <div
+          style="width: 100%; height: auto; clear: both; text-align: center"
+          class="google-auto-placed ap_container"
+        >
+          <ins
+            style="
+              display: block;
+              margin: auto;
+              background-color: transparent;
+              height: 0px;
+            "
+            data-ad-format="auto"
+            class="adsbygoogle adsbygoogle-noablate"
+            data-ad-client="ca-pub-4051516572982709"
+            data-adsbygoogle-status="done"
+            data-ad-status="unfilled"
+          >
+            <div
+              id="aswift_3_host"
+              style="
+                border: medium;
+                height: 0px;
+                width: 769px;
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+                visibility: visible;
+                background-color: transparent;
+                display: inline-block;
+                overflow: hidden;
+                opacity: 0;
+              "
+            ></div>
+          </ins>
+        </div>
+        <p>Is it possible to stop children from growing up to be criminals?</p>
+      </li>
+      <li>
+        <p>
+          The manufacturing and use of cars damages the environment but their
+          popularity is increasing.
+        </p>
+        <p>Why is this the case?</p>
+        <p>How could this be controlled?</p>
+      </li>
+      <li>
+        <p>
+          In some countries, owning a home rather than renting one is very
+          important for people.
+        </p>
+        <p>Why might this be the case?</p>
+        <p>Do you think this is a positive or negative situation?</p>
+      </li>
+      <li>
+        <p>
+          In some countries, governments provide payments for unemployed people.
+        </p>
+        <p>How does this impact people?</p>
+        <p>Is this a positive or negative development?</p>
+      </li>
+      <li>
+        <p>Many parents today do not spend much time with their children.</p>
+        <p>Why is this the case?</p>
+        <p>Does this affect parents or children more?</p>
+      </li>
+      <li>
+        <p>Many people today are choosing to travel to other countries.</p>
+        <p>Why is this happening?</p>
+        <p>Is this a positive or negative development?</p>
+      </li>
+      <li>
+        <p>
+          A lot of companies and organisations require employees to wear
+          uniforms.
+        </p>
+        <p>Which kind of jobs are uniforms suitable for?</p>
+        <p>Are there any disadvantages to wearing a uniform to work?</p>
+      </li>
+      <li>
+        <p>
+          More and more students at university today are not choosing to study
+          science.
+        </p>
+        <p>Why is this happening?</p>
+        <p>What are the effects of this?</p>
+      </li>
+      <li>
+        <p>
+          Many people who drop out of school are more successful than those who
+          complete their studies.
+        </p>
+        <p>Why does this happen?</p>
+        <p>What does it require to be successful?</p>
+      </li>
+      <li>
+        <p>
+          Watching TV shows and movies about crime is becoming more and more
+          popular.
+        </p>
+        <p>Why is this the case?</p>
+        <p>What effect does that have on society?</p>
+      </li>
+      <li>
+        <p>Some think that ambition is a good quality.</p>
+        <p>Is it important to be ambitious?</p>
+        <p>Is it a positive or negative characteristic?</p>
+      </li>
+      <li>
+        <p>Nowadays, entertainers get paid more than politicians.</p>
+        <p>What are the reasons for this?</p>
+        <p>Is this a negative or positive development?</p>
+      </li>
+      <li>
+        <p>
+          Scientists have been warning for many years about environmental
+          protection and how important it is to limit our personal energy
+          consumption.
+        </p>
+        <p>What are the causes of the over-consumption of electricity?</p>
+        <p>How can people be encouraged to use less energy?</p>
+      </li>
+      <li>
+        <p>
+          People have historically attempted to achieve a perfect society.
+          However, it is difficult to decide what a perfect society would be
+          like.
+        </p>
+        <p>What would be the most important element of an ideal society?</p>
+        <div
+          style="width: 100%; height: auto; clear: both; text-align: center"
+          class="google-auto-placed ap_container"
+        >
+          <ins
+            style="
+              display: block;
+              margin: auto;
+              background-color: transparent;
+              height: 0px;
+            "
+            data-ad-format="auto"
+            class="adsbygoogle adsbygoogle-noablate"
+            data-ad-client="ca-pub-4051516572982709"
+            data-adsbygoogle-status="done"
+            data-ad-status="unfilled"
+          >
+            <div
+              id="aswift_4_host"
+              style="
+                border: medium;
+                height: 0px;
+                width: 769px;
+                margin: 0px;
+                padding: 0px;
+                position: relative;
+                visibility: visible;
+                background-color: transparent;
+                display: inline-block;
+                overflow: hidden;
+                opacity: 0;
+              "
+            ></div>
+          </ins>
+        </div>
+        <p>What can normal people do to make society more perfect?</p>
+      </li>
+      <li>
+        <p>
+          Compared to the past, more people are now studying abroad because it
+          is more convenient and cheaper than before.
+        </p>
+        <p>
+          Do you think this is beneficial to the foreign student’s home country?
+        </p>
+        <p>Will this trend change much in the future?</p>
+      </li>
+      <li>
+        <h4 class="wp-block-heading">
+          In many countries people are living in a “throwaway society” where
+          things are used for a short time and thrown away.&nbsp;
+        </h4>
+        <h4 class="wp-block-heading">
+          What are the causes of this and what problems does it lead to?
+        </h4>
+      </li>
+      <li>
+        <p>
+          Nowadays many people choose to be self-employed, rather than to work
+          for a company or organisation.
+        </p>
+        <p>Why might this be the case?</p>
+        <p>What could be the disadvantages of being self-employed?</p>
+      </li>
+      <li>
+        <p>Global warming is one of the most serious issues that the world is facing today.</p>
+        <p>What are the causes of global warming?</p>
+        <p>what measures can governments and individuals take to tackle the issue?</p>
+ <!-- and  -->
+      </li>
+     
+    </ol>
+  </body>
+</html>

@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discussion Question</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    
+  </head>
+
+  <body>
+    <div
+      id="randomQuestion"
+      style="
+        font-size: 25px;
+        color: #000;
+        background-color: #fff;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+      width: 1200px;
+      "
+    >
+      <h3 style="   text-align: center;"> Question:</h3>
+      <div id="here" style="text-align: left"></div>
+     
+    </div>
+    <button id="copyButton" style="all: unset; cursor: pointer;background-color: #000;padding: 20px">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        fill="white"
+        class="bi bi-copy"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"
+        />
+      </svg>
+    </button>
+    <ol>
+      <li>
+        <p>
+          Some people think the manufacturers and shopping malls should sell
+          fewer packaged products while others argue that people have the
+          responsibility to buy products with less packaging.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that professional athletes serve as positive role
+          models for young people, while others argue that their behavior both
+          on and off the field can have a negative influence.
+        </p>
+        <p>Discuss both sides and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that reading is always a good habit. Others feel
+          it depends on which books a person is reading.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          The increasing availability of low-cost airlines now lets people
+          travel around the world. Some feel this is a positive development
+          while others think it is negative overall.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          In some countries, companies allow people to work from home. In
+          others, people are still expected to work in an office.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          In recent years, there has been a significant increase in the number
+          of oil drilling operations in remote locations around the world. This
+          has brought economic benefits to some countries, though it has also
+          raised concerns about the environmental impact of these operations.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many university students want to learn about different subjects in
+          addition to their main subjects. Others feel it is more important to
+          give all their time and attention to studying for their qualification.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that students should begin learning a language very early
+          in school while others think these subjects should be taught later.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some feel that individuals should have the right to strike in all jobs
+          while others feel there are exceptions.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people prefer to spend their lives doing the same things and
+          avoiding change. Others, however, think that change is always a good
+          thing.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many believe that the goal of one’s career should be to pursue a
+          passion while others feel it is merely a way to earn a livelihood.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people feel that cities should allow for spaces for graffiti
+          while others feel it should be banned.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some think newspapers are the best method for reading the news while
+          others think other media is better.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          As the number of cars increases, more money has to be spent on road
+          systems. Some people think the government should pay for this. Others,
+          however, think that drivers should cover the costs.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that children of all ages should have extra
+          responsibilities (for example, helping at home or at work). Others
+          believe that, outside of school, children should be free to enjoy
+          their lives.&nbsp;
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe more actions can be taken to prevent crime, while
+          others think that little can be done.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some argue that patriotism is the primary cause of wars globally.
+          Others feel that it serves to prevent less ethical politicians from
+          running a country and starting wars.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some feel that punishment should focus more on rehabilitation instead
+          of long prison terms. Others feel prison terms are important for
+          social stability.
+        </p>
+        <p>Discuss both sides and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some feel that individuals should try to assimilate completely to the
+          country where they live while others feel it is more important to
+          preserve their native culture.
+        </p>
+        <p>Discuss both sides and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that traffic problems in cities can best be resolved by
+          investing in urban infrastructure while others feel there are superior
+          solutions.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that car-free days are effective ways to reduce
+          air pollution. However, others argue that there are other ways that
+          are more effective.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many governments think that economic progress is their most important
+          goal. Some people, however, think that other types of progress are
+          equally important for a country.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that increasing tax on various industries will
+          reduce pollution whereas others believe that there are better
+          alternative ways.
+        </p>
+        <p>Discuss both the view and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that money for education should mainly be spent on better
+          computers while others believe it would be better spent on teachers.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          In an era of globalization, some people think that studying abroad is
+          the best way to attain a well-paid job while others believe other
+          options are better.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that professionals, such as doctors and engineers,
+          should be required to work in the country where they did their
+          training. Others believe they should be free to work in another
+          country if they wish.
+        </p>
+        <p>Discuss views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people feel that equality between the genders has already been
+          achieved while others feel there is considerable progress to be made.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that the experiences children have before they go
+          to school will have the greatest effect on their future life. Others
+          argue that experiences gained when they are teenagers have a bigger
+          influence.
+        </p>
+        <p>Discuss both views and give your own opinions.</p>
+      </li>
+      <li>
+        <p>
+          Some feel that cities shold be designed to be beautiful while others
+          feel their functionality is more important.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          In some places, old age is valued, while in other cultures youth is
+          considered more important.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that the government should strictly control the
+          supply of fresh water, as it is a limited resource, while others it
+          should not be regulated.
+        </p>
+        <p>Discuss both sides and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think it is better to have many short holidays during the
+          year. Others believe it would be beneficial to have fewer, longer
+          vacations.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          In some countries, there has been an increase in the number of
+          advertisements which try to persuade children to buy snacks, toys, and
+          other goods. Parents often claim that these ads are unfair.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say that individuals should change jobs during their
+          working life often while others believe that doing the same job has
+          advantages to individuals, companies, and society.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p></p>
+        <p>
+          Some think that politicians should always be honest while others feel
+          that there are times when they must lie.<br /><br />Discuss both sides
+          and give your own opinion.
+        </p>
+      </li>
+      <li>
+        <p>
+          Many people argue that in order to improve educational quality, high
+          school students should encouraged to question and offer criticisms on
+          their teachers. Others think this will lead to a loss of respect and
+          discipline in the classroom.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people prefer to spend their lives doing the same things and
+          avoiding change. Others, however, think that change is always good.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Computers are becoming increasingly pervasive in modern life. Some
+          view this is as a positive while others feel it is negative overall.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that children should begin their formal education at
+          a very early age. Others think they should begin after 7 years of age.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people are happy to stay in the same area for their whole life,
+          while others prefer living in many different places.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many believe that it is important to protect all wild animals, while
+          others think that it is important to protect some, not all of them.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that schools should not test and grade students.
+          Others think that grades are important.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that newspapers are the best way to learn about
+          current events. However, others believe that they can learn news
+          better through other media.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that governments should give financial support to
+          creative artists such as painters and musicians. Others believe that
+          artists should be funded by alternative sources.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          There is little difference in the shops now operating in various
+          nations. Some people think this is positive development,while other
+          believe it is negative.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people focus on news in their own country, while others think it
+          is more important to be aware of international news.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some say that children should be taught at school to recycling and
+          avoid waste. Others say they should learn this at home.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say that individuals who make a lot of money are the most
+          successful. Others think that those who contribute to society like
+          scientists and teachers are more successful.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Employers sometimes ask people applying for jobs for personal
+          information, such as their hobbies and interests, and whether they are
+          married or single. Some people say that this information may be
+          relevant and useful. Others disagree.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Movies and computer games containing violence are popular. Some people
+          say they have a negative effect on society and should be censored.
+          Others say they are just harmless relaxation.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think personal happiness is directly related to economic
+          success, while others believe this depends on other factors.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many people believe that it is easier to have a healthy lifestyle in
+          the countryside. Other believe that there are health benefits to
+          living in cities.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that students in high or secondary school can choose
+          courses freely, others think that courses such as mathematics must be
+          compulsory.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think children should have the freedom to make mistakes,
+          while other people believe that adults should prevent children from
+          making mistakes.
+        </p>
+        <p>Discuss both sides and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that children should do sports so that they will
+          grow up as healthy adults, but others feel sports are just about
+          enjoying yourself.
+        </p>
+        <p>Discuss these both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that individuals today are more dependent on each
+          other. Others believe people have become more independent.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that children can learn about history by visiting
+          museums, while others feel that there are better ways to learn about
+          history.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some feel that schools should be mixed with both girls and boys
+          attending while others feel the genders ought to be separated.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that people should make efforts to fight climate change
+          while others think it is better to learn to live with it.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          In many countries, crimes rates amongst younger people has been
+          rising.
+        </p>
+        <p>Discuss the causes and solutions for this problem.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that sports play an important role in society.
+          Others think they are nothing more than a leisure activity.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think the newly built houses should be the same as the old
+          housing styles in local areas. Others argue that local authorities
+          should allow people to build houses in their own style.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some feel governments should invest in preserving minority languages,
+          while others feel this is not a good use of resources.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Museums and art galleries should show local history and culture
+          instead of work from different countries.
+        </p>
+        <p>Discuss both views and give opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think young people should follow the traditions of their
+          society. Others think that they should be free to behave as
+          individuals.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that famous people can help international aid
+          organizations to draw attention to important problems. Others believe
+          that the celebrities can make the problems seem less important.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that the Olympic games help bring people from different
+          nations together, while others claim that holding the Olympics wastes
+          money which could be used for important issues.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe the purpose of education should be helping the
+          individual to become useful for society, while others believe it
+          should help individuals to achieve their ambitions.
+        </p>
+        <p>Discuss both sides and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think students should study the science of food and how to
+          prepare it. Others think students should spend time on important
+          subjects.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think parents are responsible for transporting their
+          children to school. Others think it is the government's
+          responsibility.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some feel that the effects of advertising are positive for individuals
+          and businesses, while others think they are negative.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some think that climate change reforms will negatively affect
+          business. Others feel they are an opportunity for businesses.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say young people should be completely free to choose their
+          future job but others think young people must be more realistic in
+          their choice.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say that the bicycles are a good, modern means of
+          transportation. Other say riding a bicycle has clear disadvantages.
+        </p>
+        <p>Discuss both view points and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some think scientists should be allowed to send messages into space to
+          communicate with other life forms while others believe this is too
+          dangerous.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some feel executives in large companies should receive high salaries
+          while others think they are paid too much compared to ordinary
+          workers.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that the experiences children have before they go
+          to school will have the greatest effect on their future life. Others
+          argue that experiences gained when they are teenagers have a bigger
+          influence.
+        </p>
+        <p>Discuss both views and give your own opinions.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that advances in technology are increasing the gap
+          between rich and poor while others think the opposite is hapenning.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that cities are the best places to live. Others
+          prefer to live in rural areas.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say that supermarkets and manufacturers have a
+          responsibility to reduce the amount of packaging on products they
+          sell. Others believe that it is the consumer’s responsibility to avoid
+          buying products which have a lot of packaging.
+        </p>
+        <p>Discuss both views and give your opinions.</p>
+      </li>
+      <li>
+        <p>
+          Many companies sponsor sports as a way of advertising themselves. Some
+          people think this is good for the world of sport, while others think
+          it is a negative.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that there should be a fixed punishment for each
+          type of crime. Others, however, argue that the circumstances of an
+          individual crime, and the motivation for committing it, should always
+          be taken into account when deciding on the punishment.
+        </p>
+        <p>Discuss both views and give your own opinion.&nbsp;</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that children that commit crimes should be
+          punished. Others think the parents should be punished instead.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that it is beneficial to show foreign films while others
+          feel this can have a negative impact on local culture.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some scientists believe that in the future computers will be more
+          intelligent than human beings. While some see this as a positive
+          development others worry about the negative consequences.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say that advertising is extremely successful at persuading
+          us to buy things. Other people think that advertising is so common
+          that we no longer pay attention to it.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that resources should be spent on protecting wild
+          animals, while others think those would be better used for the human
+          population.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Giving children and adolescents pocket money is common throughout the
+          world.
+        </p>
+        <p>
+          Discuss the advantages and disadvantages of this practice and give
+          your own opinion.
+        </p>
+      </li>
+      <li>
+        <p>
+          Some think schools should rewards students who have the best academic
+          results, while others think it’s more important to reward students who
+          achieve other types of success (such as sports, music, and good
+          behaviour).
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some educational systems make students study specialised subjects from
+          the age of fifteen while others require students to study a wide
+          range.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people argue children should stay in school until the age of 18
+          while others think that 14 years is long enough.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many people think that zoos are cruel. Others think they are helpful
+          in protecting rare animals.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people like to spend their leisure time after work with
+          co-workers while others prefer to keep their private life separate
+          from their work life.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that one-on-one lessons are better for learning
+          while others think that group lessons are superior.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some think that quality art can be made by anyone while others think
+          that it requires special talent and ability.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that money for education should mainly be spent on better
+          computers while others believe it would be better spent on teachers.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          In many countries, teenagers are encouraged to find part-time jobs.
+          Some think this is a good development while others disagree.
+        </p>
+        <p>Discuss both sides and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that history has little to teach us about today while
+          others think that the study of the past helps us to understand the
+          present.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many people believe that music is just a form of entertainment, whilst
+          others believe that music has a much larger impact on society today.
+        </p>
+        <p>Discuss both views and give your own opinion.&nbsp;</p>
+      </li>
+      <li>
+        <p>
+          Some believe that the best way to stay fit is to join a gym or health
+          club while others think doing everyday activities such as walking and
+          climbing stairs is enough.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people argue that job satisfaction is more important than job
+          security, while others believe that they cannot always expect job
+          satisfaction and a permanent job is more important.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some think that governments should support retired people financially
+          while others believe they should take care of themselves.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some believe that people are naturally born as leaders while others
+          feel that leadership skills can develop.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many people feel that students should learn from online materials
+          while others feel that it is better to use printed materials.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that children should begin their formal education at
+          a very early age. Some think they should begin at least 7 years old.
+        </p>
+        <p>Discuss both views give opinions.</p>
+      </li>
+      <li>
+        <p>
+          Many think that in today’s world it is very difficult for people to
+          maintain a healthy lifestyle. Others, however, feel that it is easy
+          for people to be healthy and fit if they want to be.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that paying taxes is their only responsibility
+          towards society while others feel that everyone should do more.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Most agree that we should be training children to recycle waste to
+          preserve the Earth’s natural resources. However, some believe that it
+          is parents who should teach their children to recycle waste while
+          others feels schools are more responsible.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that education is the key to tackling hunger
+          worldwide while others feel that the answer is in food aid.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say that it is acceptable to test medicine intended for
+          people on animals. Others, however, believe that it is not right to
+          use animals in this research.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many feel that going to the gym is the best way to stay fit. Others
+          think there are more effective methods.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that allowing children to make their own choices
+          on everyday matters (such as food, clothes and entertainment) is
+          likely to result in a society of individuals who only think about
+          their own wishes. Other people believe that it is important for
+          children to make decisions about matters that affect them.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many parents encourage young people to leave home when they become
+          older, while others think they should stay at home with the family.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Many people believe that every individual is responsible for his/her
+          own healthy lifestyle. Others believe that governments should take
+          care of it.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          In a number of countries, some people think it is necessary to spend
+          large sums of money on constructing new railway lines for very fast
+          trains between cities. Others believe the money should be spent on
+          improving existing public transport.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say that the main environmental problem of our time is the
+          loss of particular species of plants and animals. Others say that
+          there are more important environmental problems.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that it is best to accept a bad situation, such as
+          an unsatisfactory job or shortage of money. Others argue that it is
+          better to try and improve such situations.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people believe that it is good to share as much information as
+          possible in scientific research, business, and the academic world.
+          Others believe that some information is too important or too valuable
+          to be shared freely.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that governments should invest mainly in making
+          public transportation faster while other think there are more
+          important priorities (cost, the environment).
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that newspapers are the best way to learn news.
+          However, others believe that they can learn news better through other
+          media.
+        </p>
+        <p>Discuss both views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people say history is one the most important school subjects.
+          Other people think that, in today’s world, subjects like science and
+          technology are more important than history.
+        </p>
+        <p>Discuss both these views and give your own opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some people think that it is a waste of money for countries to host
+          big sporting events like the world cup, and that the money would be
+          better spent on other things. However, others think that hosting large
+          sporting events has a clear, positive impact on a country.
+        </p>
+        <p>Discuss both these views and give your opinion.</p>
+      </li>
+      <li>
+        <p>
+          Some are of the opinion that people are naturally born as good leaders
+          while others feel that leadership skills can be learned.
+        </p>
+        <p>Discuss both views and give your own opinion.</p>
+      </li>
+    </ol>
+
+     </body>
+</html>
